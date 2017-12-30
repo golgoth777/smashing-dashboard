@@ -1,6 +1,6 @@
 require 'mini_magick'
 
-SCHEDULER.every '5m', first_in: 0 do
+SCHEDULER.every '10m', first_in: 0 do
   image = MiniMagick::Image.open('https://www.airparif.asso.fr/services/cartes/indice/date/jour')
 
   # Remove text indicating the current day
