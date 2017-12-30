@@ -1,0 +1,2100 @@
+192.168.1.17 - - [22/Dec/2017 21:36:45] "GET /sample HTTP/1.1" 200 2340 0.0151
+192.168.1.17 - - [22/Dec/2017 21:36:46] "GET /views/text.html HTTP/1.1" 200 175 0.0032
+192.168.1.17 - - [22/Dec/2017 21:36:46] "GET /views/meter.html HTTP/1.1" 200 442 0.0029
+192.168.1.17 - - [22/Dec/2017 21:36:46] "GET /views/list.html HTTP/1.1" 200 493 0.0029
+192.168.1.17 - - [22/Dec/2017 21:36:46] "GET /views/number.html HTTP/1.1" 200 343 0.0030
+192.168.1.17 - - [22/Dec/2017 21:36:46] "GET /views/graph.html HTTP/1.1" 200 183 0.0029
+192.168.1.17 - - [22/Dec/2017 21:36:54] "GET /transilien_next_trains HTTP/1.1" 200 1583 0.0172
+192.168.1.17 - - [22/Dec/2017 21:36:54] "GET /events HTTP/1.1" 200 - 7.7244
+192.168.1.17 - - [22/Dec/2017 21:36:54] "GET /views/transilien_next_trains.html HTTP/1.1" 200 1045 0.0160
+192.168.1.17 - - [22/Dec/2017 21:37:35] "GET /events HTTP/1.1" 200 - 41.0369
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:8888, CTRL+C to stop
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+Waiting for 5 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+/usr/local/rvm/gems/ruby-2.2.4/gems/backports-3.10.3/lib/backports/std_lib.rb:9:in `require': cannot load such file -- nokogiri (LoadError)
+	from /usr/local/rvm/gems/ruby-2.2.4/gems/backports-3.10.3/lib/backports/std_lib.rb:9:in `require_with_backports'
+	from /opt/smashing/golgo-dashboard/jobs/transilien_next_trains.rb:4:in `<top (required)>'
+	from /usr/local/rvm/gems/ruby-2.2.4/gems/backports-3.10.3/lib/backports/std_lib.rb:9:in `require'
+	from /usr/local/rvm/gems/ruby-2.2.4/gems/backports-3.10.3/lib/backports/std_lib.rb:9:in `require_with_backports'
+	from /usr/local/rvm/gems/ruby-2.2.4/gems/smashing-1.0.0/lib/dashing/app.rb:171:in `block in require_glob'
+	from /usr/local/rvm/gems/ruby-2.2.4/gems/smashing-1.0.0/lib/dashing/app.rb:170:in `each'
+	from /usr/local/rvm/gems/ruby-2.2.4/gems/smashing-1.0.0/lib/dashing/app.rb:170:in `require_glob'
+	from /usr/local/rvm/gems/ruby-2.2.4/gems/smashing-1.0.0/lib/dashing/app.rb:181:in `<top (required)>'
+	from /usr/local/rvm/gems/ruby-2.2.4/gems/smashing-1.0.0/lib/dashing.rb:3:in `require'
+	from /usr/local/rvm/gems/ruby-2.2.4/gems/smashing-1.0.0/lib/dashing.rb:3:in `<top (required)>'
+	from config.ru:1:in `require'
+	from config.ru:1:in `block in <main>'
+	from /usr/local/rvm/gems/ruby-2.2.4/gems/rack-1.5.5/lib/rack/builder.rb:55:in `instance_eval'
+	from /usr/local/rvm/gems/ruby-2.2.4/gems/rack-1.5.5/lib/rack/builder.rb:55:in `initialize'
+	from config.ru:1:in `new'
+	from config.ru:1:in `<main>'
+	from /usr/local/rvm/gems/ruby-2.2.4/gems/thin-1.6.4/lib/rack/adapter/loader.rb:33:in `eval'
+	from /usr/local/rvm/gems/ruby-2.2.4/gems/thin-1.6.4/lib/rack/adapter/loader.rb:33:in `load'
+	from /usr/local/rvm/gems/ruby-2.2.4/gems/thin-1.6.4/lib/thin/controllers/controller.rb:182:in `load_rackup_config'
+	from /usr/local/rvm/gems/ruby-2.2.4/gems/thin-1.6.4/lib/thin/controllers/controller.rb:72:in `start'
+	from /usr/local/rvm/gems/ruby-2.2.4/gems/thin-1.6.4/lib/thin/runner.rb:200:in `run_command'
+	from /usr/local/rvm/gems/ruby-2.2.4/gems/thin-1.6.4/lib/thin/runner.rb:156:in `run!'
+	from /usr/local/rvm/gems/ruby-2.2.4/gems/thin-1.6.4/bin/thin:6:in `<top (required)>'
+	from /usr/local/rvm/gems/ruby-2.2.4/bin/thin:23:in `load'
+	from /usr/local/rvm/gems/ruby-2.2.4/bin/thin:23:in `<main>'
+	from /usr/local/rvm/gems/ruby-2.2.4/bin/ruby_executable_hooks:15:in `eval'
+	from /usr/local/rvm/gems/ruby-2.2.4/bin/ruby_executable_hooks:15:in `<main>'
+192.168.1.17 - - [22/Dec/2017 21:39:45] "GET /transilien_next_trains HTTP/1.1" 200 1583 0.0142
+192.168.1.17 - - [22/Dec/2017 21:39:46] "GET /views/transilien_next_trains.html HTTP/1.1" 200 1045 0.0033
+192.168.1.17 - - [22/Dec/2017 21:40:07] "GET / HTTP/1.1" 302 - 0.0024
+192.168.1.17 - - [22/Dec/2017 21:40:08] "GET /sample HTTP/1.1" 200 2340 0.0123
+192.168.1.17 - - [22/Dec/2017 21:40:08] "GET /events HTTP/1.1" 200 - 21.4431
+192.168.1.17 - - [22/Dec/2017 21:40:08] "GET /views/text.html HTTP/1.1" 200 175 0.0030
+192.168.1.17 - - [22/Dec/2017 21:40:08] "GET /views/meter.html HTTP/1.1" 200 442 0.0029
+192.168.1.17 - - [22/Dec/2017 21:40:08] "GET /views/list.html HTTP/1.1" 200 493 0.0030
+192.168.1.17 - - [22/Dec/2017 21:40:08] "GET /views/number.html HTTP/1.1" 200 343 0.0051
+192.168.1.17 - - [22/Dec/2017 21:40:08] "GET /views/graph.html HTTP/1.1" 200 183 0.0030
+5.39.91.20 - - [22/Dec/2017 21:40:29] "POST /widgets/welcome HTTP/1.1" 204 - 0.0018
+192.168.1.17 - - [22/Dec/2017 21:40:41] "GET /welcome HTTP/1.1" 404 683 0.0141
+192.168.1.17 - - [22/Dec/2017 21:40:41] "GET /events HTTP/1.1" 200 - 32.4581
+192.168.1.17 - - [22/Dec/2017 21:40:41] "GET /favicon.ico HTTP/1.1" 200 5430 0.0019
+192.168.1.17 - - [22/Dec/2017 21:40:54] "GET /sample HTTP/1.1" 200 2340 0.0103
+192.168.1.17 - - [22/Dec/2017 21:40:55] "GET /views/text.html HTTP/1.1" 200 175 0.0028
+192.168.1.17 - - [22/Dec/2017 21:40:55] "GET /views/meter.html HTTP/1.1" 200 442 0.0027
+192.168.1.17 - - [22/Dec/2017 21:40:55] "GET /views/list.html HTTP/1.1" 200 493 0.0027
+192.168.1.17 - - [22/Dec/2017 21:40:55] "GET /views/number.html HTTP/1.1" 200 343 0.0027
+192.168.1.17 - - [22/Dec/2017 21:40:55] "GET /views/graph.html HTTP/1.1" 200 183 0.0027
+192.168.1.17 - - [22/Dec/2017 22:35:35] "GET /events HTTP/1.1" 200 - 3280.0498
+192.168.1.17 - - [22/Dec/2017 22:36:07] "GET /sample HTTP/1.1" 200 2340 0.0119
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:8888, CTRL+C to stop
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+192.168.1.17 - - [22/Dec/2017 22:36:22] "GET /views/text.html HTTP/1.1" 200 175 0.0029
+192.168.1.17 - - [22/Dec/2017 22:36:22] "GET /views/graph.html HTTP/1.1" 200 183 0.0028
+192.168.1.17 - - [22/Dec/2017 22:36:22] "GET /views/meter.html HTTP/1.1" 200 442 0.0029
+192.168.1.17 - - [22/Dec/2017 22:36:22] "GET /views/list.html HTTP/1.1" 200 493 0.0026
+192.168.1.17 - - [22/Dec/2017 22:36:22] "GET /views/number.html HTTP/1.1" 200 343 0.0027
+192.168.1.17 - - [22/Dec/2017 22:36:26] "GET /events HTTP/1.1" 200 - 4.2181
+182.48.105.210 - - [23/Dec/2017 05:59:46] "GET / HTTP/1.0" 302 - 0.0031
+182.48.105.210 - - [23/Dec/2017 05:59:46] "GET /sample HTTP/1.0" 200 2329 0.0111
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+192.168.1.17 - - [23/Dec/2017 09:12:30] "GET /sample HTTP/1.1" 200 2340 0.0150
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3030, CTRL+C to stop
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+192.168.1.17 - - [23/Dec/2017 09:12:46] "GET /views/text.html HTTP/1.1" 200 175 0.0049
+192.168.1.17 - - [23/Dec/2017 09:12:46] "GET /views/meter.html HTTP/1.1" 200 442 0.0042
+192.168.1.17 - - [23/Dec/2017 09:12:46] "GET /views/list.html HTTP/1.1" 200 493 0.0043
+192.168.1.17 - - [23/Dec/2017 09:12:46] "GET /views/number.html HTTP/1.1" 200 343 0.0043
+192.168.1.17 - - [23/Dec/2017 09:12:46] "GET /views/graph.html HTTP/1.1" 200 183 0.0045
+192.168.1.17 - - [23/Dec/2017 09:12:46] "GET /favicon.ico HTTP/1.1" 200 5430 0.0026
+192.168.1.17 - - [23/Dec/2017 10:11:20] "GET /events HTTP/1.1" 200 - 3514.3777
+192.168.1.17 - - [23/Dec/2017 10:11:20] "GET /sample HTTP/1.1" 200 2340 0.0114
+192.168.1.17 - - [23/Dec/2017 10:11:21] "GET /views/text.html HTTP/1.1" 200 175 0.0036
+192.168.1.17 - - [23/Dec/2017 10:11:21] "GET /views/meter.html HTTP/1.1" 200 442 0.0028
+192.168.1.17 - - [23/Dec/2017 10:11:21] "GET /views/list.html HTTP/1.1" 200 493 0.0027
+192.168.1.17 - - [23/Dec/2017 10:11:21] "GET /views/number.html HTTP/1.1" 200 343 0.0029
+192.168.1.17 - - [23/Dec/2017 10:11:21] "GET /views/graph.html HTTP/1.1" 200 183 0.0027
+192.168.1.17 - - [23/Dec/2017 14:08:39] "GET /events HTTP/1.1" 200 - 14238.1424
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3030, CTRL+C to stop
+192.168.1.17 - - [24/Dec/2017 13:07:15] "GET /golgoth HTTP/1.1" 200 2894 0.0235
+192.168.1.17 - - [24/Dec/2017 13:07:38] "GET /views/klimato.html HTTP/1.1" 200 175 0.0036
+192.168.1.17 - - [24/Dec/2017 13:07:38] "GET /views/btcprice.html HTTP/1.1" 200 239 0.0028
+192.168.1.17 - - [24/Dec/2017 13:07:38] "GET /views/graph.html HTTP/1.1" 200 183 0.0028
+192.168.1.17 - - [24/Dec/2017 13:07:38] "GET /views/trafficmap.html HTTP/1.1" 200 35 0.0030
+192.168.1.17 - - [24/Dec/2017 13:07:38] "GET /views/airparif.html HTTP/1.1" 200 268 0.0027
+192.168.1.17 - - [24/Dec/2017 13:43:22] "GET /events HTTP/1.1" 200 - 2144.3569
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+Invalid request: Invalid HTTP format, parsing fails.
+	/usr/local/rvm/gems/ruby-2.2.4/gems/thin-1.6.4/lib/thin/request.rb:84:in `execute'
+	/usr/local/rvm/gems/ruby-2.2.4/gems/thin-1.6.4/lib/thin/request.rb:84:in `parse'
+	/usr/local/rvm/gems/ruby-2.2.4/gems/thin-1.6.4/lib/thin/connection.rb:39:in `receive_data'
+	/usr/local/rvm/gems/ruby-2.2.4/gems/eventmachine-1.2.5/lib/eventmachine.rb:194:in `run_machine'
+	/usr/local/rvm/gems/ruby-2.2.4/gems/eventmachine-1.2.5/lib/eventmachine.rb:194:in `run'
+	/usr/local/rvm/gems/ruby-2.2.4/gems/thin-1.6.4/lib/thin/backends/base.rb:73:in `start'
+	/usr/local/rvm/gems/ruby-2.2.4/gems/thin-1.6.4/lib/thin/server.rb:162:in `start'
+	/usr/local/rvm/gems/ruby-2.2.4/gems/thin-1.6.4/lib/thin/controllers/controller.rb:87:in `start'
+	/usr/local/rvm/gems/ruby-2.2.4/gems/thin-1.6.4/lib/thin/runner.rb:200:in `run_command'
+	/usr/local/rvm/gems/ruby-2.2.4/gems/thin-1.6.4/lib/thin/runner.rb:156:in `run!'
+	/usr/local/rvm/gems/ruby-2.2.4/gems/thin-1.6.4/bin/thin:6:in `<top (required)>'
+	/usr/local/rvm/gems/ruby-2.2.4/bin/thin:23:in `load'
+	/usr/local/rvm/gems/ruby-2.2.4/bin/thin:23:in `<main>'
+	/usr/local/rvm/gems/ruby-2.2.4/bin/ruby_executable_hooks:15:in `eval'
+	/usr/local/rvm/gems/ruby-2.2.4/bin/ruby_executable_hooks:15:in `<main>'
+
+Invalid request: Invalid HTTP format, parsing fails.
+	/usr/local/rvm/gems/ruby-2.2.4/gems/thin-1.6.4/lib/thin/request.rb:84:in `execute'
+	/usr/local/rvm/gems/ruby-2.2.4/gems/thin-1.6.4/lib/thin/request.rb:84:in `parse'
+	/usr/local/rvm/gems/ruby-2.2.4/gems/thin-1.6.4/lib/thin/connection.rb:39:in `receive_data'
+	/usr/local/rvm/gems/ruby-2.2.4/gems/eventmachine-1.2.5/lib/eventmachine.rb:194:in `run_machine'
+	/usr/local/rvm/gems/ruby-2.2.4/gems/eventmachine-1.2.5/lib/eventmachine.rb:194:in `run'
+	/usr/local/rvm/gems/ruby-2.2.4/gems/thin-1.6.4/lib/thin/backends/base.rb:73:in `start'
+	/usr/local/rvm/gems/ruby-2.2.4/gems/thin-1.6.4/lib/thin/server.rb:162:in `start'
+	/usr/local/rvm/gems/ruby-2.2.4/gems/thin-1.6.4/lib/thin/controllers/controller.rb:87:in `start'
+	/usr/local/rvm/gems/ruby-2.2.4/gems/thin-1.6.4/lib/thin/runner.rb:200:in `run_command'
+	/usr/local/rvm/gems/ruby-2.2.4/gems/thin-1.6.4/lib/thin/runner.rb:156:in `run!'
+	/usr/local/rvm/gems/ruby-2.2.4/gems/thin-1.6.4/bin/thin:6:in `<top (required)>'
+	/usr/local/rvm/gems/ruby-2.2.4/bin/thin:23:in `load'
+	/usr/local/rvm/gems/ruby-2.2.4/bin/thin:23:in `<main>'
+	/usr/local/rvm/gems/ruby-2.2.4/bin/ruby_executable_hooks:15:in `eval'
+	/usr/local/rvm/gems/ruby-2.2.4/bin/ruby_executable_hooks:15:in `<main>'
+
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+192.168.1.17 - - [26/Dec/2017 19:07:09] "GET /events HTTP/1.1" 200 - 7562.9194
+Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3030, CTRL+C to stop
+192.168.1.17 - - [26/Dec/2017 19:10:35] "GET /golgoth HTTP/1.1" 200 3251 0.0170
+192.168.1.17 - - [26/Dec/2017 19:10:57] "GET /views/klimato.html HTTP/1.1" 200 175 0.0034
+192.168.1.17 - - [26/Dec/2017 19:10:57] "GET /views/btcprice.html HTTP/1.1" 200 239 0.0027
+192.168.1.17 - - [26/Dec/2017 19:10:57] "GET /views/graph.html HTTP/1.1" 200 183 0.0027
+192.168.1.17 - - [26/Dec/2017 19:10:57] "GET /views/transilien_next_trains.html HTTP/1.1" 200 1045 0.0200
+192.168.1.17 - - [26/Dec/2017 19:10:57] "GET /views/trafficmap.html HTTP/1.1" 200 35 0.0027
+192.168.1.17 - - [26/Dec/2017 19:10:57] "GET /views/airparif.html HTTP/1.1" 200 268 0.0027
+192.168.1.17 - - [26/Dec/2017 19:41:19] "GET /events HTTP/1.1" 200 - 1821.8833
+192.168.1.17 - - [26/Dec/2017 19:41:19] "GET /golgoth HTTP/1.1" 200 3251 0.0148
+192.168.1.17 - - [26/Dec/2017 19:41:19] "GET /views/klimato.html HTTP/1.1" 200 175 0.0031
+192.168.1.17 - - [26/Dec/2017 19:41:19] "GET /views/btcprice.html HTTP/1.1" 200 239 0.0032
+192.168.1.17 - - [26/Dec/2017 19:41:19] "GET /views/graph.html HTTP/1.1" 200 183 0.0029
+192.168.1.17 - - [26/Dec/2017 19:41:19] "GET /views/transilien_next_trains.html HTTP/1.1" 200 1045 0.0035
+192.168.1.17 - - [26/Dec/2017 19:41:19] "GET /views/trafficmap.html HTTP/1.1" 200 35 0.0029
+192.168.1.17 - - [26/Dec/2017 19:41:19] "GET /views/airparif.html HTTP/1.1" 200 268 0.0031
+192.168.1.17 - - [26/Dec/2017 19:42:51] "GET /events HTTP/1.1" 200 - 92.3761
+192.168.1.17 - - [26/Dec/2017 19:42:51] "GET /golgoth HTTP/1.1" 200 3253 0.0149
+192.168.1.17 - - [26/Dec/2017 19:42:52] "GET /views/klimato.html HTTP/1.1" 200 175 0.0034
+192.168.1.17 - - [26/Dec/2017 19:42:52] "GET /views/btcprice.html HTTP/1.1" 200 239 0.0033
+192.168.1.17 - - [26/Dec/2017 19:42:52] "GET /views/graph.html HTTP/1.1" 200 183 0.0029
+192.168.1.17 - - [26/Dec/2017 19:42:52] "GET /views/transilien_next_trains.html HTTP/1.1" 200 1045 0.0033
+192.168.1.17 - - [26/Dec/2017 19:42:52] "GET /views/trafficmap.html HTTP/1.1" 200 35 0.0029
+192.168.1.17 - - [26/Dec/2017 19:42:52] "GET /views/airparif.html HTTP/1.1" 200 268 0.0030
+192.168.1.17 - - [26/Dec/2017 21:02:17] "GET /events HTTP/1.1" 200 - 4765.8480
+Restarting ...
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3030, CTRL+C to stop
+192.168.1.17 - - [27/Dec/2017 12:18:42] "GET /golgoth HTTP/1.1" 200 3253 0.0170
+192.168.1.17 - - [27/Dec/2017 12:19:03] "GET /views/klimato.html HTTP/1.1" 200 175 0.0034
+192.168.1.17 - - [27/Dec/2017 12:19:03] "GET /views/btcprice.html HTTP/1.1" 200 239 0.0027
+192.168.1.17 - - [27/Dec/2017 12:19:03] "GET /views/graph.html HTTP/1.1" 200 183 0.0027
+192.168.1.17 - - [27/Dec/2017 12:19:03] "GET /views/transilien_next_trains.html HTTP/1.1" 200 1045 0.0027
+192.168.1.17 - - [27/Dec/2017 12:19:03] "GET /views/trafficmap.html HTTP/1.1" 200 35 0.0027
+192.168.1.17 - - [27/Dec/2017 12:19:03] "GET /views/airparif.html HTTP/1.1" 200 268 0.0029
+192.168.1.17 - - [27/Dec/2017 13:37:32] "GET /events HTTP/1.1" 200 - 4708.7514
+192.168.1.17 - - [27/Dec/2017 13:37:32] "GET /golgoth HTTP/1.1" 200 3253 0.0152
+192.168.1.17 - - [27/Dec/2017 13:37:33] "GET /views/klimato.html HTTP/1.1" 200 175 0.0035
+192.168.1.17 - - [27/Dec/2017 13:37:33] "GET /views/btcprice.html HTTP/1.1" 200 239 0.0031
+192.168.1.17 - - [27/Dec/2017 13:37:33] "GET /views/graph.html HTTP/1.1" 200 183 0.0050
+192.168.1.17 - - [27/Dec/2017 13:37:33] "GET /views/transilien_next_trains.html HTTP/1.1" 200 1045 0.0047
+192.168.1.17 - - [27/Dec/2017 13:37:33] "GET /views/trafficmap.html HTTP/1.1" 200 35 0.0031
+192.168.1.17 - - [27/Dec/2017 13:37:33] "GET /views/airparif.html HTTP/1.1" 200 268 0.0032
+192.168.1.17 - - [27/Dec/2017 21:28:11] "GET /events HTTP/1.1" 200 - 28238.0500
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+192.168.1.17 - - [28/Dec/2017 10:49:52] "GET /events HTTP/1.1" 200 - 1932.0025
+192.168.1.17 - - [28/Dec/2017 12:00:46] "GET /events HTTP/1.1" 200 - 4211.7892
+192.168.1.17 - - [28/Dec/2017 12:15:18] "GET /events HTTP/1.1" 200 - 660.7752
+192.168.1.17 - - [28/Dec/2017 19:30:27] "GET /events HTTP/1.1" 200 - 21514.4784
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+192.168.1.17 - - [29/Dec/2017 14:12:33] "GET /events HTTP/1.1" 200 - 12093.8164
+192.168.1.17 - - [29/Dec/2017 20:18:06] "GET /events HTTP/1.1" 200 - 3103.0746
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Net::ReadTimeout
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:152:in `rbuf_fill'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:134:in `readuntil'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/protocol.rb:144:in `readline'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:39:in `read_status_line'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http/response.rb:28:in `read_new'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1414:in `block in transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1411:in `transport_request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:1384:in `request'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:324:in `block in open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/net/http.rb:853:in `start'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:318:in `open_http'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:736:in `buffer_open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:211:in `block in open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `catch'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:209:in `open_loop'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:150:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:716:in `open'
+/usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/open-uri.rb:34:in `open'
+/usr/local/rvm/gems/ruby-2.2.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgo-dashboard/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/usr/local/rvm/gems/ruby-2.2.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+192.168.1.17 - - [30/Dec/2017 10:15:39] "GET / HTTP/1.1" 302 - 0.0049
+192.168.1.17 - - [30/Dec/2017 10:15:39] "GET /cameras HTTP/1.1" 200 1908 0.0422
+192.168.1.17 - - [30/Dec/2017 10:15:42] "GET /favicon.ico HTTP/1.1" 304 - 0.0019
+192.168.1.17 - - [30/Dec/2017 10:15:56] "GET /golgoth HTTP/1.1" 200 3230 0.0237
+192.168.1.17 - - [30/Dec/2017 10:15:56] "GET /events HTTP/1.1" 200 - 14.7186
+192.168.1.17 - - [30/Dec/2017 10:16:24] "GET /golgoth HTTP/1.1" 200 3230 0.0141
+192.168.1.17 - - [30/Dec/2017 10:16:24] "GET /events HTTP/1.1" 200 - 27.4363
+192.168.1.17 - - [30/Dec/2017 10:16:43] "GET /golgoth HTTP/1.1" 200 3230 0.0154
+192.168.1.17 - - [30/Dec/2017 10:16:43] "GET /events HTTP/1.1" 200 - 19.0417
+192.168.1.17 - - [30/Dec/2017 10:23:43] "GET /events HTTP/1.1" 200 - 419.3689
+Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3030, CTRL+C to stop
+192.168.1.17 - - [30/Dec/2017 10:24:06] "GET /golgoth HTTP/1.1" 200 3230 0.0178
+192.168.1.17 - - [30/Dec/2017 10:24:06] "GET /favicon.ico HTTP/1.1" 200 5430 0.0120
+192.168.1.17 - - [30/Dec/2017 10:24:08] "GET /golgoth HTTP/1.1" 200 3230 0.0241
+192.168.1.17 - - [30/Dec/2017 10:24:08] "GET /events HTTP/1.1" 200 - 1.3300
+192.168.1.17 - - [30/Dec/2017 10:24:08] "GET /favicon.ico HTTP/1.1" 200 5430 0.0027
+192.168.1.17 - - [30/Dec/2017 10:24:13] "GET /sample HTTP/1.1" 200 2481 0.0189
+192.168.1.17 - - [30/Dec/2017 10:24:13] "GET /events HTTP/1.1" 200 - 5.6173
+192.168.1.17 - - [30/Dec/2017 10:24:32] "GET /sample HTTP/1.1" 200 2481 0.0197
+192.168.1.17 - - [30/Dec/2017 10:24:32] "GET /events HTTP/1.1" 200 - 18.1472
+192.168.1.17 - - [30/Dec/2017 10:24:56] "GET / HTTP/1.1" 302 - 0.0028
+192.168.1.17 - - [30/Dec/2017 10:24:56] "GET /cameras HTTP/1.1" 200 1908 0.0103
+192.168.1.17 - - [30/Dec/2017 10:24:56] "GET /events HTTP/1.1" 200 - 24.2961
+192.168.1.17 - - [30/Dec/2017 10:25:08] "GET /golgothland HTTP/1.1" 404 683 0.0075
+192.168.1.17 - - [30/Dec/2017 10:25:08] "GET /events HTTP/1.1" 200 - 11.3029
+192.168.1.17 - - [30/Dec/2017 10:25:12] "GET /golgoth HTTP/1.1" 200 3230 0.0185
+192.168.1.17 - - [30/Dec/2017 10:34:48] "GET /golgoth HTTP/1.1" 200 3378 0.0154
+192.168.1.17 - - [30/Dec/2017 10:34:48] "GET /events HTTP/1.1" 200 - 576.0582
+192.168.1.17 - - [30/Dec/2017 10:34:50] "GET /views/klimato.html HTTP/1.1" 200 175 0.0037
+192.168.1.17 - - [30/Dec/2017 10:34:50] "GET /views/transilien_next_trains.html HTTP/1.1" 200 1045 0.0034
+192.168.1.17 - - [30/Dec/2017 10:34:50] "GET /views/graph.html HTTP/1.1" 200 183 0.0034
+192.168.1.17 - - [30/Dec/2017 10:34:50] "GET /views/trafficmap.html HTTP/1.1" 200 35 0.0034
+192.168.1.17 - - [30/Dec/2017 10:34:50] "GET /views/airparif.html HTTP/1.1" 200 268 0.0031
+192.168.1.17 - - [30/Dec/2017 10:34:50] "GET /views/btcprice.html HTTP/1.1" 200 239 0.0168
+192.168.1.17 - - [30/Dec/2017 10:39:19] "GET /events HTTP/1.1" 200 - 269.2187
+Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now

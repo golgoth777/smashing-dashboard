@@ -1,0 +1,14 @@
+:haproxy:
+  :instances:
+    'ha1': 'http://ks3277700.kimsufi.com:8888'
+
+  :username: ''
+  :password: ''
+  :pxname_exclude:
+  :pxname_include:
+  :svname_exclude:
+    - 'backend'
+    - 'frontend'
+  :svname_include:
+  :critical: 33.0
+  :warning: 50.0
