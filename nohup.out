@@ -2098,3 +2098,61 @@ Listening on 0.0.0.0:3030, CTRL+C to stop
 192.168.1.17 - - [30/Dec/2017 10:34:50] "GET /views/btcprice.html HTTP/1.1" 200 239 0.0168
 192.168.1.17 - - [30/Dec/2017 10:39:19] "GET /events HTTP/1.1" 200 - 269.2187
 Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3030, CTRL+C to stop
+192.168.1.17 - - [30/Dec/2017 10:54:20] "GET /golgoth HTTP/1.1" 200 3370 0.0175
+192.168.1.17 - - [30/Dec/2017 10:54:21] "GET /views/klimato.html HTTP/1.1" 200 175 0.0034
+192.168.1.17 - - [30/Dec/2017 10:54:21] "GET /views/btcprice.html HTTP/1.1" 200 239 0.0047
+192.168.1.17 - - [30/Dec/2017 10:54:21] "GET /views/graph.html HTTP/1.1" 200 183 0.0032
+192.168.1.17 - - [30/Dec/2017 10:54:21] "GET /views/transilien_next_trains.html HTTP/1.1" 200 1045 0.0028
+192.168.1.17 - - [30/Dec/2017 10:54:21] "GET /views/airparif.html HTTP/1.1" 200 268 0.0031
+192.168.1.17 - - [30/Dec/2017 10:54:21] "GET /views/trafficmap.html HTTP/1.1" 200 35 0.0035
+192.168.1.17 - - [30/Dec/2017 12:01:20] "GET /golgoth HTTP/1.1" 200 3370 0.0158
+192.168.1.17 - - [30/Dec/2017 12:01:20] "GET /events HTTP/1.1" 200 - 4019.4203
+192.168.1.17 - - [30/Dec/2017 12:01:21] "GET /views/klimato.html HTTP/1.1" 200 175 0.0053
+192.168.1.17 - - [30/Dec/2017 12:01:21] "GET /views/btcprice.html HTTP/1.1" 200 239 0.0048
+192.168.1.17 - - [30/Dec/2017 12:01:21] "GET /views/graph.html HTTP/1.1" 200 183 0.0050
+192.168.1.17 - - [30/Dec/2017 12:01:21] "GET /views/transilien_next_trains.html HTTP/1.1" 200 1045 0.0034
+192.168.1.17 - - [30/Dec/2017 12:01:21] "GET /views/trafficmap.html HTTP/1.1" 200 35 0.0048
+192.168.1.17 - - [30/Dec/2017 12:01:21] "GET /views/airparif.html HTTP/1.1" 200 268 0.0052
+192.168.1.17 - - [30/Dec/2017 12:06:49] "GET /events HTTP/1.1" 200 - 328.5413
+Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3030, CTRL+C to stop
+192.168.1.17 - - [30/Dec/2017 12:07:52] "GET /golgoth HTTP/1.1" 200 3699 0.0185
+192.168.1.17 - - [30/Dec/2017 12:07:53] "GET /views/klimato.html HTTP/1.1" 200 175 0.0052
+192.168.1.17 - - [30/Dec/2017 12:07:53] "GET /views/graph.html HTTP/1.1" 200 183 0.0030
+192.168.1.17 - - [30/Dec/2017 12:07:53] "GET /views/btcprice.html HTTP/1.1" 200 239 0.0029
+192.168.1.17 - - [30/Dec/2017 12:07:53] "GET /views/airparif.html HTTP/1.1" 200 268 0.0031
+192.168.1.17 - - [30/Dec/2017 12:07:53] "GET /views/transilien_next_trains.html HTTP/1.1" 200 1045 0.0035
+192.168.1.17 - - [30/Dec/2017 12:07:53] "GET /views/trafficmap.html HTTP/1.1" 200 35 0.0127
+192.168.1.17 - - [30/Dec/2017 12:08:50] "GET /events HTTP/1.1" 200 - 57.1149
+Waiting for 5 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3030, CTRL+C to stop
+192.168.1.17 - - [30/Dec/2017 12:11:53] "GET /golgoth HTTP/1.1" 200 3699 0.0193
+192.168.1.17 - - [30/Dec/2017 12:11:53] "GET /views/klimato.html HTTP/1.1" 200 175 0.0048
+192.168.1.17 - - [30/Dec/2017 12:11:53] "GET /views/btcprice.html HTTP/1.1" 200 239 0.0047
+192.168.1.17 - - [30/Dec/2017 12:11:53] "GET /views/graph.html HTTP/1.1" 200 183 0.0045
+192.168.1.17 - - [30/Dec/2017 12:11:53] "GET /views/transilien_next_trains.html HTTP/1.1" 200 1045 0.0044
+192.168.1.17 - - [30/Dec/2017 12:11:53] "GET /views/airparif.html HTTP/1.1" 200 268 0.0034
+192.168.1.17 - - [30/Dec/2017 12:11:53] "GET /views/trafficmap.html HTTP/1.1" 200 35 0.0046
+192.168.1.17 - - [30/Dec/2017 12:12:43] "GET /events HTTP/1.1" 200 - 49.9450
+192.168.1.17 - - [30/Dec/2017 12:14:17] "GET /golgoth HTTP/1.1" 200 3699 0.0185
+192.168.1.17 - - [30/Dec/2017 12:14:17] "GET /events HTTP/1.1" 200 - 94.1909
+192.168.1.17 - - [30/Dec/2017 12:14:18] "GET /views/klimato.html HTTP/1.1" 200 175 0.0039
+192.168.1.17 - - [30/Dec/2017 12:14:19] "GET /views/btcprice.html HTTP/1.1" 200 239 0.0037
+192.168.1.17 - - [30/Dec/2017 12:14:19] "GET /views/graph.html HTTP/1.1" 200 183 0.0038
+192.168.1.17 - - [30/Dec/2017 12:14:19] "GET /views/transilien_next_trains.html HTTP/1.1" 200 1045 0.0031
+192.168.1.17 - - [30/Dec/2017 12:14:19] "GET /views/airparif.html HTTP/1.1" 200 268 0.0037
+192.168.1.17 - - [30/Dec/2017 12:14:19] "GET /views/trafficmap.html HTTP/1.1" 200 35 0.0039
+192.168.1.17 - - [30/Dec/2017 12:14:27] "GET /views/klimato.html HTTP/1.1" 200 175 0.0055
+192.168.1.17 - - [30/Dec/2017 12:14:27] "GET /views/btcprice.html HTTP/1.1" 200 239 0.0068
+192.168.1.17 - - [30/Dec/2017 12:14:27] "GET /views/graph.html HTTP/1.1" 200 183 0.0057
+192.168.1.17 - - [30/Dec/2017 12:14:27] "GET /views/transilien_next_trains.html HTTP/1.1" 200 1045 0.0053
+192.168.1.17 - - [30/Dec/2017 12:14:27] "GET /views/airparif.html HTTP/1.1" 200 268 0.0047
+192.168.1.17 - - [30/Dec/2017 12:14:27] "GET /views/trafficmap.html HTTP/1.1" 200 35 0.0036
+192.168.1.17 - - [30/Dec/2017 12:14:33] "GET /events HTTP/1.1" 200 - 6.0090
