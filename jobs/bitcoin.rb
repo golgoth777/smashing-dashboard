@@ -3,7 +3,7 @@ require 'json'
 require 'uri'
 
 SCHEDULER.every '180s' do
-  uri = URI.parse('https://api.coinbase.com/v2/prices/BTC-USD/spot')
+  uri = URI.parse('https://api.coinbase.com/v2/prices/BTC-EUR/spot')
   http = Net::HTTP.new(uri.host, uri.port)
   http.use_ssl = true
   request = Net::HTTP::Get.new(uri.request_uri)
