@@ -12,7 +12,7 @@ SCHEDULER.every '10m', first_in: 0 do
   # Remove Airparif logo
   image.combine_options do |c|
     c.fill 'white'
-    c.draw 'rectangle 300,200 440,345'
+    c.draw 'rectangle 320,276 440,345'
   end
 
   # make transparent background
