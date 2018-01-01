@@ -12,7 +12,7 @@ words = ["system.cpu", "system.committed", "system.entropy", "system.iowait", "s
   #for i in servers.length()
 	for server in servers
 		for word in words
-			url = "http://"+ server +"/api/v1/badge.svg?chart="+ word +"&after=-10&group=average"
+			url = "http://"+ server +"/api/v1/data?chart="+ word +"&after=-30&group=average"
 			send_event('netdata_rpi1', {title: word, current: getSvg(url)})
 		end
 	end
