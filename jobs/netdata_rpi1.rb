@@ -10,13 +10,12 @@ words = ["system.cpu", "ram.used", "ram.free", "system.iowait", "system.load"]
 for word in words
 url = "http://remote.nicolleau.eu:19999/api/v1/data?chart="+ word +"&after=-60&group=average"
 send_event('netdata_rpi1', {title: word, data: getSvg(url)}
-loop
+end
  
 end
  
 def getSvg(apiUrl)
 res = HTTParty.get(apiUrl)
-list = res["data"]
-return getItem(list)["images"]["original"]["url"]
+return res["data"]
 end
  
