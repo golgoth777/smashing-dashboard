@@ -12,7 +12,7 @@ for i in servers.length()
 	for server in servers
 		for word in words
 			url = "http://"+ server +"/api/v1/data?chart="+ word +"&after=-10&group=average"
-			send_event('netdata_rpi1', {current: getSvg(url)})
+			send_event('netdata_rpi'+i, {current: getSvg(url)})
 		end
 	end
 end
