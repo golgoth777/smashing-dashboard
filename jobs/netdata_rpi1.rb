@@ -6,7 +6,7 @@ SCHEDULER.every '1m', :first_in => 0 do |job|
 
 servers = ["remote.nicolleau.eu:19999"]
 #,"remote.nicolleau.eu:29999","remote.nicolleau.eu:39999","remote.nicolleau.eu:49999","remote.nicolleau.eu:59999"]
-words = ["system.cpu", "system.committed", "system.entropy", "system.iowait", "system.load"]
+words = ["system.cpu", "mem.committed", "system.entropy", "system.iowait", "system.load"]
  
 #url = "http://remote.nicolleau.eu:19999/v1/gifs/search?q="+ word +"&api_key=dc6zaTOxFJmzC&limit=100"
   #for i in servers.length()
