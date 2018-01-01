@@ -13,3 +13,5 @@ gem "activesupport"
 gem 'simple-rss'
 gem "econfig", require: "econfig"
 gem 'puma'
+gem 'httparty'
+gem ‘json'
