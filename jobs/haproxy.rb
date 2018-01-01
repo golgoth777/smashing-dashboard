@@ -14,7 +14,7 @@ overall[:sessions_prev] = 0
 overall[:queue_prev] = 0
 
 
-SCHEDULER.every '5s', first_in: '5s', allow_overlapping: false do |job|
+SCHEDULER.every '60s', first_in: '5s', allow_overlapping: false do |job|
   status = Hash.new
   overall[:up_count] = 0
   overall[:down_count] = 0
