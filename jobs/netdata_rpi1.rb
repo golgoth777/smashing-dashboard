@@ -8,13 +8,14 @@ servers = ["remote.nicolleau.eu:19999","remote.nicolleau.eu:29999","remote.nicol
 words = ["system.cpu", "ram.used", "ram.free", "system.iowait", "system.load"]
  
 #url = "http://remote.nicolleau.eu:19999/v1/gifs/search?q="+ word +"&api_key=dc6zaTOxFJmzC&limit=100"
-for i in servers.length()
+  for i in servers.length()
 	for server in servers
 		for word in words
 			url = "http://"+ server +"/api/v1/data?chart="+ word +"&after=-10&group=average"
 			send_event('netdata_rpi'+i, {current: getSvg(url)})
 		end
 	end
+  end
 end
  
 def getSvg(apiUrl)
