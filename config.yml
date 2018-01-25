@@ -10,5 +10,5 @@
     - 'backend'
     - 'frontend'
   :svname_include:
-  :critical: 33.0
-  :warning: 50.0
+  :critical: 90.0
+  :warning: 80.0
