@@ -2,7 +2,7 @@ require 'net/http'
 require 'json'
 
 JENKINS_HOST = 'local.nicolleau.eu'
-PATH = 'your_path'
+PATH = ''
 USERNAME = 'admin'
 PASSWORD = 'Azerty1977!'
 SSL_ENABLED = false
