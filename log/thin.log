@@ -1,0 +1,61 @@
+Writing PID to tmp/pids/thin.pid
+/usr/local/rvm/gems/ruby-2.4.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:368: warning: constant ::Fixnum is deprecated
+/usr/local/rvm/gems/ruby-2.4.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:368: warning: constant ::Fixnum is deprecated
+/usr/local/rvm/gems/ruby-2.4.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:368: warning: constant ::Fixnum is deprecated
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3030, CTRL+C to stop
+================================================================================
+scheduler caught exception:
+ImageMagick/GraphicsMagick is not installed
+82.124.155.48 - - [07/Oct/2018 19:28:01] "GET /golgoth HTTP/1.1" 200 3395 0.0292
+/usr/local/rvm/gems/ruby-2.4.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:208:in `rescue in validate!'
+/usr/local/rvm/gems/ruby-2.4.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:205:in `validate!'
+/usr/local/rvm/gems/ruby-2.4.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:118:in `block in create'
+/usr/local/rvm/gems/ruby-2.4.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:117:in `tap'
+/usr/local/rvm/gems/ruby-2.4.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:117:in `create'
+/usr/local/rvm/gems/ruby-2.4.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:34:in `read'
+/usr/local/rvm/gems/ruby-2.4.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:95:in `block in open'
+/usr/local/rvm/rubies/ruby-2.4.4/lib/ruby/2.4.0/open-uri.rb:155:in `open_uri'
+/usr/local/rvm/rubies/ruby-2.4.4/lib/ruby/2.4.0/open-uri.rb:721:in `open'
+/usr/local/rvm/rubies/ruby-2.4.4/lib/ruby/2.4.0/open-uri.rb:35:in `open'
+/usr/local/rvm/gems/ruby-2.4.4/gems/mini_magick-4.8.0/lib/mini_magick/image.rb:94:in `open'
+/opt/smashing/golgoth/jobs/airparif.rb:4:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.4.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.4.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.4.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+765: unexpected token at '<h1>Developer Inactive</h1>'
+/usr/local/rvm/gems/ruby-2.4.4/gems/json-2.1.0/lib/json/common.rb:156:in `parse'
+/usr/local/rvm/gems/ruby-2.4.4/gems/json-2.1.0/lib/json/common.rb:156:in `parse'
+/opt/smashing/golgoth/jobs/traffic.rb:24:in `block (2 levels) in <top (required)>'
+/opt/smashing/golgoth/jobs/traffic.rb:15:in `each'
+/opt/smashing/golgoth/jobs/traffic.rb:15:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.4.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/usr/local/rvm/gems/ruby-2.4.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/usr/local/rvm/gems/ruby-2.4.4/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+82.124.155.48 - - [07/Oct/2018 19:28:28] "GET /nextcloud/status.php HTTP/1.1" 404 683 0.0023
+82.124.155.48 - - [07/Oct/2018 19:28:29] "GET /nextcloud/owncloud/status.php HTTP/1.1" 404 683 0.0024
+82.124.155.48 - - [07/Oct/2018 19:28:32] "GET /views/klimato.html HTTP/1.1" 200 175 0.0040
+82.124.155.48 - - [07/Oct/2018 19:28:32] "GET /views/btcprice.html HTTP/1.1" 200 239 0.0047
+82.124.155.48 - - [07/Oct/2018 19:28:32] "GET /views/graph.html HTTP/1.1" 200 183 0.0045
+82.124.155.48 - - [07/Oct/2018 19:28:32] "GET /views/transilien_next_trains.html HTTP/1.1" 200 1045 0.0044
+82.124.155.48 - - [07/Oct/2018 19:28:32] "GET /views/airparif.html HTTP/1.1" 200 268 0.0043
+82.124.155.48 - - [07/Oct/2018 19:28:43] "GET /nextcloud/status.php HTTP/1.1" 404 683 0.0041
+82.124.155.48 - - [07/Oct/2018 19:28:44] "GET /nextcloud/owncloud/status.php HTTP/1.1" 404 683 0.0041
+82.124.155.48 - - [07/Oct/2018 19:29:16] "GET /nextcloud/status.php HTTP/1.1" 404 683 0.0054
+82.124.155.48 - - [07/Oct/2018 19:29:16] "GET /nextcloud/owncloud/status.php HTTP/1.1" 404 683 0.0044
+82.124.155.48 - - [07/Oct/2018 19:29:48] "GET /nextcloud/status.php HTTP/1.1" 404 683 0.0042
+82.124.155.48 - - [07/Oct/2018 19:29:48] "GET /nextcloud/owncloud/status.php HTTP/1.1" 404 683 0.0043
+82.124.155.48 - - [07/Oct/2018 19:29:58] "GET /events HTTP/1.1" 200 - 89.9997
+82.124.155.48 - - [07/Oct/2018 19:30:20] "GET /nextcloud/status.php HTTP/1.1" 404 683 0.0058
+82.124.155.48 - - [07/Oct/2018 19:30:20] "GET /nextcloud/owncloud/status.php HTTP/1.1" 404 683 0.0048
+82.124.155.48 - - [07/Oct/2018 19:30:51] "GET /nextcloud/status.php HTTP/1.1" 404 683 0.0033
+82.124.155.48 - - [07/Oct/2018 19:30:52] "GET /nextcloud/owncloud/status.php HTTP/1.1" 404 683 0.0028
+82.124.155.48 - - [07/Oct/2018 19:31:22] "GET /events HTTP/1.1" 200 - 169.5187
+82.124.155.48 - - [07/Oct/2018 19:31:22] "GET /events HTTP/1.1" 200 - 41.7882
+Waiting for 3 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+Exiting!
