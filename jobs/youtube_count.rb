@@ -9,8 +9,8 @@ require 'json'
 
 # Config
 # ------
-youtube_api_key =  ENV['YOUTUBE_API_KEY'] || 'YOUR API KEY'
-youtube_channel_id = ENV['YOUTUBE_CHANNEL_KEY'] || 'YOUR CHANNEL ID'
+youtube_api_key =  ENV['8C9MG8NrCDWQ1Jyvi6V2rg'] || 'YOUR API KEY'
+youtube_channel_id = ENV['UC8C9MG8NrCDWQ1Jyvi6V2rg'] || 'YOUR CHANNEL ID'
 
 
   SCHEDULER.every '1m', :first_in => 0 do |job|
