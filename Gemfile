@@ -14,4 +14,6 @@ gem 'simple-rss'
 gem "econfig", require: "econfig"
 gem 'puma'
 gem 'httparty'
-gem ‘json'
+gem 'json'
+gem 'rest-client'
+
